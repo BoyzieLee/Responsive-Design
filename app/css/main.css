@@ -1,0 +1,42 @@
+body {
+  max-width: 100%;
+  background-color: red; }
+  body .container {
+    margin-top: 30px;
+    max-width: 95%;
+    overflow: auto; }
+    body .container aside {
+      width: 15%;
+      float: left;
+      text-align: right;
+      color: #B1C8D4;
+      background-color: yellow;
+      margin-left: 3%; }
+      body .container aside p {
+        margin: 0; }
+      body .container aside h1 {
+        margin: 0;
+        color: #6CBFEE; }
+    body .container section {
+      width: 100%;
+      color: white;
+      width: 10%;
+      text-align: center;
+      float: left;
+      margin-left: 2%;
+      background-color: #AFDCF8;
+      border-radius: 100%; }
+      body .container section .circleBox {
+        color: white;
+        background-color: #46A4DA; }
+    body .container article {
+      width: 60%;
+      padding: 2px 3%;
+      border-radius: .5em;
+      color: white;
+      background-color: #6CBFEE;
+      float: right; }
+      body .container article hr {
+        border: 1px solid white; }
+
+/*# sourceMappingURL=main.css.map */
