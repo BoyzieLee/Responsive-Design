@@ -15,6 +15,9 @@ body {
       body .lineContainer .container .mobileFloat aside h1 {
         margin: 0;
         color: #6CBFEE; }
+      body .lineContainer .container .mobileFloat aside .h1-2 {
+        margin: 0;
+        color: #3594CB; }
     body .lineContainer .container .mobileFloat .bigIconBox {
       color: white;
       text-align: center;
@@ -50,6 +53,8 @@ body {
       float: right; }
       body .lineContainer .container article hr {
         border: 1px solid white; }
+    body .lineContainer .container .darkBlueBox {
+      background-color: #3594CB; }
 
 @media screen and (max-width: 720px) {
   body {
@@ -65,12 +70,15 @@ body {
   hr {
     border: .5px solid white; }
   p {
-    font-size: 12px; } }
+    font-size: 12px; }
+  .darkBlueBox {
+    background-color: #3594CB; } }
 
 @media screen and (max-width: 450px) {
   body {
     background-color: white; }
   .container {
+    width: 300px;
     margin: 0 2.5%;
     padding: 0 2.5%; }
   aside {
@@ -92,8 +100,8 @@ body {
   p {
     font-size: 12px; }
   section {
-    width: 50%;
     color: white;
+    float: right;
     text-align: center;
     margin-left: 2%;
     background-color: #AFDCF8;
@@ -120,13 +128,10 @@ body {
             height: 10px;
             background-color: #45A1D6;
             border-radius: 100%; }
-  article {
-    width: 400px;
-    margin-top: 30px;
-    padding: 2px 3%;
-    border-radius: .5em;
-    color: white;
-    background-color: #6CBFEE;
-    clear: both; } }
+  .darkBlueBox {
+    background-color: #3594CB; }
+  .lineContainer .container article {
+    width: 90%;
+    margin-top: 30px; } }
 
 /*# sourceMappingURL=main.css.map */

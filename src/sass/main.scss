@@ -13,6 +13,7 @@ body {
       max-width: 95%;
       overflow: auto;
 
+
       .mobileFloat {
 
         aside {
@@ -28,7 +29,10 @@ body {
           h1 {
             margin: 0;
             color: #6CBFEE;
-
+          }
+          .h1-2 {
+            margin: 0;
+            color: #3594CB;
           }
         }
         .vertLine {
@@ -90,10 +94,13 @@ body {
         hr {
           border: 1px solid white;
         }
-
+      }
+      .darkBlueBox {
+        background-color: #3594CB;
       }
 
     }
+
   }
 }
 
@@ -122,17 +129,22 @@ body {
   p {
     font-size: 12px;
   }
+  .darkBlueBox {
+    background-color: #3594CB;
+  }
 }
 /////////////// mobile view    /////
 
 @media screen and (max-width: 450px) {
   body {
-
+    // width: 300px;
     background-color: white;
   }
   .container {
+    width: 300px;
     margin: 0 2.5%;
     padding: 0 2.5%;
+    // float: none;
   }
   aside {
     width: 50%;
@@ -161,9 +173,9 @@ body {
     font-size: 12px;
   }
   section {
-    width: 50%;
+    // width: 50%;
     color: white;
-    // float: right;
+    float: right;
     text-align: center;
     margin-left: 2%;
     background-color: #AFDCF8;
@@ -199,13 +211,14 @@ body {
       }
     }
   }
-  article {
-    width: 400px;
+  .darkBlueBox {
+    background-color: #3594CB;
+  }
+  .lineContainer .container article {
+    width: 90%;
     margin-top: 30px;
-    padding: 2px 3%;
-    border-radius: .5em;
-    color: white;
-    background-color: #6CBFEE;
-    clear: both;
+    // padding: 2px 3%;
+    // background-color: #6CBFEE;
+    // clear: both;
   }
 }
