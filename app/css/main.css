@@ -1,42 +1,132 @@
 body {
-  max-width: 100%;
-  background-color: red; }
-  body .container {
+  max-width: 100%; }
+  body .lineContainer .container {
     margin-top: 30px;
     max-width: 95%;
     overflow: auto; }
-    body .container aside {
+    body .lineContainer .container .mobileFloat aside {
       width: 15%;
       float: left;
       text-align: right;
       color: #B1C8D4;
-      background-color: yellow;
       margin-left: 3%; }
-      body .container aside p {
+      body .lineContainer .container .mobileFloat aside p {
         margin: 0; }
-      body .container aside h1 {
+      body .lineContainer .container .mobileFloat aside h1 {
         margin: 0;
         color: #6CBFEE; }
-    body .container section {
-      width: 100%;
+    body .lineContainer .container .mobileFloat .bigIconBox {
       color: white;
-      width: 10%;
       text-align: center;
       float: left;
       margin-left: 2%;
-      background-color: #AFDCF8;
-      border-radius: 100%; }
-      body .container section .circleBox {
-        color: white;
-        background-color: #46A4DA; }
-    body .container article {
+      width: 50px;
+      height: 50px; }
+      body .lineContainer .container .mobileFloat .bigIconBox .bigCircleBox {
+        width: 50px;
+        height: 50px;
+        background-color: #AFDCF8;
+        border-radius: 100%; }
+        body .lineContainer .container .mobileFloat .bigIconBox .bigCircleBox .smallIconBox {
+          padding-left: 4.5px;
+          padding-top: 5px;
+          width: 40px;
+          height: 40px; }
+          body .lineContainer .container .mobileFloat .bigIconBox .bigCircleBox .smallIconBox .smallCircleBox {
+            width: 40px;
+            height: 40px;
+            background-color: #45A1D6;
+            border-radius: 100%; }
+    body .lineContainer .container .mobileFloat section i {
+      margin: 10px;
+      color: white;
+      background-color: #46A4DA; }
+    body .lineContainer .container article {
       width: 60%;
       padding: 2px 3%;
       border-radius: .5em;
       color: white;
       background-color: #6CBFEE;
       float: right; }
-      body .container article hr {
+      body .lineContainer .container article hr {
         border: 1px solid white; }
+
+@media screen and (max-width: 720px) {
+  body {
+    background-color: pink; }
+  .container {
+    padding: 0 2.5%; }
+  p {
+    font-size: 14px; }
+  h1 {
+    font-size: 23px; }
+  h4 {
+    font-size: 15px; }
+  hr {
+    border: .5px solid white; }
+  p {
+    font-size: 12px; } }
+
+@media screen and (max-width: 450px) {
+  body {
+    background-color: white; }
+  .container {
+    margin: 0 2.5%;
+    padding: 0 2.5%; }
+  aside {
+    width: 50%;
+    display: block;
+    text-align: left;
+    color: #B1C8D4;
+    margin-left: 3%; }
+    aside p {
+      font-size: 14px;
+      text-align: left; }
+    aside h1 {
+      font-size: 23px;
+      text-align: left; }
+  h4 {
+    font-size: 15px; }
+  hr {
+    border: .5px solid white; }
+  p {
+    font-size: 12px; }
+  section {
+    width: 50%;
+    color: white;
+    text-align: center;
+    margin-left: 2%;
+    background-color: #AFDCF8;
+    border-radius: 100%; }
+    section .bigIconBox {
+      color: white;
+      text-align: center;
+      float: left;
+      margin-left: 2%;
+      width: 20px;
+      height: 20px; }
+      section .bigIconBox .bigCircleBox {
+        width: 20px;
+        height: 20px;
+        background-color: #AFDCF8;
+        border-radius: 100%; }
+        section .bigIconBox .bigCircleBox .smallIconBox {
+          padding-left: 4.5px;
+          padding-top: 5px;
+          width: 10px;
+          height: 10px; }
+          section .bigIconBox .bigCircleBox .smallIconBox .smallCircleBox {
+            width: 10px;
+            height: 10px;
+            background-color: #45A1D6;
+            border-radius: 100%; }
+  article {
+    width: 400px;
+    margin-top: 30px;
+    padding: 2px 3%;
+    border-radius: .5em;
+    color: white;
+    background-color: #6CBFEE;
+    clear: both; } }
 
 /*# sourceMappingURL=main.css.map */
